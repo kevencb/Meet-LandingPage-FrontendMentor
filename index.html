@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+	<title>Meet Landing Page</title>
+	<link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
 
-  Download v1.3
-  What is it?
+	<header class="header">
+		<div class="header__logo">
+			<img src="./assets/logo.svg" alt="Logo">
+		</div>
+		<div class="header__banner"></div>
+		<div class="header__info container">
+			<h1 class="header__title">
+				Group Chat for Everyone
+			</h1>
+			<p class="header__text">
+				Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+			</p>
+			<div class="header__buttons">
+				<button class="button-green" aria-label="Download">Download <span>v1.3</span></button>
+				<button class="button-purple" aria-label="Whait ii it">What is it?</button>
+			</div>
+		</div>
+		<div class="indicator">
+			<div class="line"></div>
+			<span>01</span>
+		</div>
+	</header>
 
-  01
-  Built for modern use
+	<main class="main container">
+		<div class="galerie">
+			<img class="img-01" src="./assets/desktop/image-women-videochatting.jpg" alt="">
+			<img class="img-02" src="./assets/desktop/image-women-videochatting.jpg" alt="">
+			<img class="img-03" src="./assets/desktop/image-women-videochatting.jpg" alt="">
+			<img class="img-04" src="./assets/desktop/image-women-videochatting.jpg" alt="">
+		</div>
+		<h3 class="main__title">Built for modern use</h3>
+		<h2 class="title-h2">Smarter meetings, all in one place</h2>
+		<div class="text-main">
+			Send messages, share files, show your screen,and record your meetings — all in one workspace. Control who
+			can join with invite-only team access, data encryption, and data export.
+		</div>
+		<div class="indicator">
+			<div class="line"></div>
+			<span>02</span>
+		</div>
+	</main>
 
-  Smarter meetings, all in one place
+	<footer class="footer content">
+		<div class="content">
+			<h2 class="title-h2">Experience more together</h2>
+			<p class="footer__text">
+				Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+			</p>
+			<button class="button-purple" aria-label="Whait ii it">Download <span>v1.3</span></button>
+			<div class="attribution">
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+				Coded by <a href="https://github.com/kevencb">Keven CB</a>.
+			</div>
+		</div>
+	</footer>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
-
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-  Download v1.3
 </body>
+
 </html>
