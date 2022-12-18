@@ -61,6 +61,7 @@
     font-size: 1.6rem
     width: max-content
     font-weight: 900
+    cursor: pointer
 
 .button-green
     @extend .button
@@ -69,12 +70,18 @@
         color: variables.$blue
         margin-left: 0.4rem
 
+.button-green:hover
+    background-color: #71C0D4
+
 .button-purple
     @extend .button
     background-color: variables.$purple
     span
         color: variables.$purpleLight
         margin-left: 0.4rem
+
+.button-purple:hover
+    background-color: #B18BDD
 
 .indicator
     margin: 6.4rem auto 0
@@ -123,3 +130,7 @@
         grid-template-columns: repeat(4, 1fr)
         grid-template-rows: 1fr
         gap: 1.1rem
+
+@media (min-width:1100px)
+    .galerie
+        width: 110rem
