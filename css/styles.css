@@ -358,15 +358,20 @@ body {
   }
 }
 @media (min-width: 1100px) {
-  .footer {
-    background-image: url("../assets/desktop/image-footer.jpg");
-  }
   .footer__content {
     width: 110rem;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
   }
   .footer h2, .footer__text {
     text-align: left;
+  }
+  .footer__text {
+    width: 35rem;
+  }
+  .footer button {
+    justify-self: end;
   }
 }
 

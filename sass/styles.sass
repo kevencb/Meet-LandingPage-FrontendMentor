@@ -175,9 +175,14 @@ body
 
 @media (min-width:1100px)
     .footer
-        background-image: url('../assets/desktop/image-footer.jpg')
         &__content
             width: 110rem
-            flex-direction: row
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            gap: 0
         h2, &__text
             text-align: left
+        &__text
+            width: 35rem
+        button
+            justify-self: end
